@@ -1,9 +1,9 @@
-const { describe, it } = require('./mate.js')
+const { describe, it, xdescribe, xit } = require('./mate.js')
 const { expect } = require('chai')
 
-describe('tests to test the framework', function(){
+xdescribe('tests to test the framework', function(){
 
-  it('passing assertion 1', function(){
+  xit('passing assertion 1', function(){
     expect(1).to.equal(1)
   })
 
